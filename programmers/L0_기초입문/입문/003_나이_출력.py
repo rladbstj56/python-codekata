@@ -3,8 +3,9 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120820
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 19. 11:45:49
+# 작성일: 2026. 01. 19. 11:47:25
 
 def solution(age):
-    answer = 2022 - age + 1
+    current_year = 2022
+    answer = current_year - age + 1
     return answer
