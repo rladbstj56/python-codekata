@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120806
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 19. 11:50:37
+# 작성일: 2026. 01. 19. 12:05:57
 
 def solution(num1, num2):
-    answer = num1/num2*1000
-    return int(answer)
+    answer = num1*1000//num2
+    return answer
