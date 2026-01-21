@@ -3,9 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120830
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 21. 10:00:05
+# 작성일: 2026. 01. 21. 10:04:00
 
 def solution(n, k):
-    service = n//10
-    price = 12000*n + 2000*(k-service)
-    return price
+    k -= n//10
+    return 12000*n + 2000*k
