@@ -3,10 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120821
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 21. 10:41:58
+# 작성일: 2026. 01. 21. 10:45:43
 
 def solution(num_list):
-    answer = []
-    for i in range(len(num_list)-1,-1,-1):
-        answer.append(num_list[i])
+    answer = num_list[::-1]
     return answer
