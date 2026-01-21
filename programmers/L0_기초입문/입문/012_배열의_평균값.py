@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120817
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 21. 10:38:15
+# 작성일: 2026. 01. 21. 10:38:49
 
-import numpy as np
+
 def solution(numbers):
-    return np.mean(numbers)
+    return sum(numbers) / len(numbers)
