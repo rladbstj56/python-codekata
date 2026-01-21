@@ -3,10 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120831
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 01. 21. 10:09:58
+# 작성일: 2026. 01. 21. 10:11:01
 
 def solution(n):
-    sum=0
-    for i in range(0,n+1,2):
-        sum+=i
-    return sum
+    return sum(i for i in range(2,n+1,2))
