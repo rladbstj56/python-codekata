@@ -3,12 +3,11 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120889
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 05. 09:28:43
+# 작성일: 2026. 02. 05. 09:30:21
 
 def solution(sides):
-    max_side = max(sides)
-    sides.remove(max_side)
-    if max_side < sum(sides):
+    sides.sort()
+    if sides[2] < sides[0]+sides[1]:
         return 1
     else:
         return 2
