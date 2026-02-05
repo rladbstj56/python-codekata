@@ -3,11 +3,10 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120889
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 05. 09:30:21
+# 작성일: 2026. 02. 05. 09:30:59
 
 def solution(sides):
-    sides.sort()
-    if sides[2] < sides[0]+sides[1]:
+    if max(sides) < sum(sides)-max(sides):
         return 1
     else:
         return 2
