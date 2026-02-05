@@ -3,8 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120816
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 05. 14:40:37
+# 작성일: 2026. 02. 05. 14:48:27
 
-import math
 def solution(slice, n):
-    return math.ceil(n/slice)
+    return ((n-1)//slice) + 1 # 몫 연산
