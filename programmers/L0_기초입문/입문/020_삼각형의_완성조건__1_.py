@@ -3,10 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120889
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 05. 09:30:59
+# 작성일: 2026. 02. 05. 09:31:37
 
 def solution(sides):
-    if max(sides) < sum(sides)-max(sides):
-        return 1
-    else:
-        return 2
+    return 1 if max(sides) < sum(sides)-max(sides) else 2
