@@ -3,16 +3,11 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120841
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 06. 09:21:05
+# 작성일: 2026. 02. 06. 09:29:01
 
 def solution(dot):
-    if dot[0] < 0:
-        if dot[1] < 0:
-            return 3
-        else:
-            return 2
+    x,y = dot
+    if x*y>0:
+        return 1 if x>0 else 3
     else:
-        if dot[1] < 0:
-            return 4
-        else:
-            return 1
+        return 4 if x>0 else 2
