@@ -3,11 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120905
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 09. 14:18:00
+# 작성일: 2026. 02. 09. 14:21:34
 
 def solution(n, numlist):
-    answer = []
-    for i in numlist:
-        if i % n == 0:
-            answer.append(i)
+    answer = [i for i in numlist if i%n==0]
     return answer
