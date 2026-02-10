@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120854
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 10. 09:17:35
+# 작성일: 2026. 02. 10. 09:20:50
 
 def solution(strlist):
-    answer = [len(w) for w in strlist]
+    answer = list(map(len, strlist))
     return answer
