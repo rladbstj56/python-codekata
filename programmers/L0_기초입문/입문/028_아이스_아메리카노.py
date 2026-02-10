@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120819
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 10. 09:23:51
+# 작성일: 2026. 02. 10. 09:24:43
 
 def solution(money):
-    answer = divmod(money, 5500)
+    answer = [money//5500, money%5500]
     return answer
