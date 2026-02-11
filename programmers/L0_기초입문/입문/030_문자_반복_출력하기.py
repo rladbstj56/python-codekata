@@ -3,11 +3,10 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120825
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 11. 09:33:48
+# 작성일: 2026. 02. 11. 09:37:00
 
 def solution(my_string, n):
-    letters = []
-    for letter in my_string:
-        letters.append(letter*n)
-    answer = "".join(letters)
+    answer = ''
+    for m in my_string:
+        answer += (m * n)
     return answer
