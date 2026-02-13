@@ -3,7 +3,10 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120849
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 13. 09:19:05
+# 작성일: 2026. 02. 13. 09:21:43
 
 def solution(my_string):
-    return ''.join(l for l in my_string if l not in "aeiou")
+    vowels = ['a','e','i','o','u']
+    for v in vowels:
+        my_string = my_string.replace(v,'')
+    return my_string
