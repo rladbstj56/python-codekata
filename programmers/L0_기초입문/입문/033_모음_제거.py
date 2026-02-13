@@ -3,10 +3,9 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120849
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 13. 09:21:43
+# 작성일: 2026. 02. 13. 09:23:25
 
-def solution(my_string):
-    vowels = ['a','e','i','o','u']
-    for v in vowels:
-        my_string = my_string.replace(v,'')
-    return my_string
+import re
+def solution(my_string): 
+    answer = re.sub('[aeiou]','',my_string)
+    return answer
