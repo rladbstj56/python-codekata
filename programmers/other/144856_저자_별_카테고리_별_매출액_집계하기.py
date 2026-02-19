@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/144856
 # 작성자: 김윤서
-# 작성일: 2026. 02. 20. 00:33:39
+# 작성일: 2026. 02. 20. 00:34:36
 
 select 
     a.author_id, 
