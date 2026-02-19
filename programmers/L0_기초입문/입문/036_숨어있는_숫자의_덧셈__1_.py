@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120851
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 19. 20:52:25
+# 작성일: 2026. 02. 19. 20:52:52
 
 def solution(my_string):
-    answer = sum([int(i) for i in my_string if i.isdigit()])
+    answer = sum(int(i) for i in my_string if i.isdigit())
     return answer
