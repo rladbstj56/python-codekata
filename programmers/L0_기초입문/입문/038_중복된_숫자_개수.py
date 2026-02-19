@@ -3,8 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120583
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 19. 21:11:54
+# 작성일: 2026. 02. 19. 21:13:21
 
 def solution(array, n):
-    answer = sum(1 for i in array if i==n)
-    return answer
+    return array.count(n)
+    
