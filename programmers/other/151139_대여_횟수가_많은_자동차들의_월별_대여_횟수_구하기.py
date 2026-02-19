@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/151139
 # 작성자: 김윤서
-# 작성일: 2026. 02. 20. 01:33:58
+# 작성일: 2026. 02. 20. 01:43:07
 
 select month(rh.start_date) as month, rh.car_id, count(*) as records 
 from car_rental_company_rental_history rh
