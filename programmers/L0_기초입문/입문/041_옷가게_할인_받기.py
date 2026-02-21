@@ -3,13 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120818
 # 알고리즘: 기초
 # 작성자: 김윤서
-# 작성일: 2026. 02. 21. 21:04:03
+# 작성일: 2026. 02. 21. 21:06:11
 
 def solution(price):
-    if price >= 500000:
-        price *= 0.8
-    elif price >= 300000:
-        price *= 0.9 
-    elif price >= 100000:
-        price *= 0.95
-    return int(price)
+    return int(price*0.8) if price>=500000 else int(price*0.9) if price>=300000 else int(price*0.95) if price>=100000 else int(price)
